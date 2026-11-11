@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data / secrets — never committed
+data/*.db
+*.db
+.env
+.env.*
+
+# Agent harness artifacts
+.playwright-mcp/
+private_docs/
+.notes/
+
+# OS noise
+.DS_Store
+
+# Personal notes are git-ignored by program rule
+*.local.md
+*.plan.md
